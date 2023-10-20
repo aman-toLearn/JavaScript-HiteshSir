@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dom learmimg</title>
+
+    <style>
+        .bg-black{
+            background-color: #212121;
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body class="bg-black" >
+<!-- DOM ++ Document object model 
+     Diagram kaise bnta hai 
+
+             Window ==>Document ==>HTML-------------in notebook 
+
+
+                
+
+
+
+-->
+
+
+
+    <div >
+
+        <h1 id="title" class="heading" >Dom learning on chai aur code <span style="display: none;" >test text </span>  </h1>
+        <h2>Lorem ipsum dolor sit.</h2>
+        <h2>Lorem ipsum dolor sit.</h2>
+        <h2>Lorem ipsum dolor sit.</h2>
+
+        <p>Lorem ipsum dolor sit amet.</p>
+        <input type="password" name="" id="">
+
+        <ul>
+            <li class="list-item">one</li>
+            <li class="list-item">two</li>
+            <li class="list-item">three</li>
+            <li class="list-item">four</li>
+
+        </ul>
+    </div>
+    
+</body>
+</html>
+
+
+<!-- document.querySelectorAll
+ƒ querySelectorAll() { [native code] }
+document.querySelectorAll('h2')
+NodeList(5) [h2.vector-pinnable-header-label, h2, h2, h2, h2]
+const allH2 = document.querySelectorAll('h2')
+
+undefined
+allH2[0].innerText
+'Contents'
+document.querySelectorAll('.mw-headline')
+NodeList(8) [span#Early_life.mw-headline, span#Career.mw-headline, span#Netscape.mw-headline, span#Mozilla.mw-headline, span#Appointment_to_CEO_and_resignation.mw-headline, span#Brave_Software.mw-headline, span#References.mw-headline, span#External_links.mw-headline]0: span#Early_life.mw-headline1: span#Career.mw-headline2: span#Netscape.mw-headline3: span#Mozilla.mw-headline4: span#Appointment_to_CEO_and_resignation.mw-headline5: span#Brave_Software.mw-headline6: span#References.mw-headline7: span#External_links.mw-headlinelength: 8[[Prototype]]: NodeList
+const myH2 = document.querySelectorAll('.mw-headline')
+
+undefined
+myH2[0].innerText
+'Early life'
+myH2
+NodeList(8) [span#Early_life.mw-headline, span#Career.mw-headline, span#Netscape.mw-headline, span#Mozilla.mw-headline, span#Appointment_to_CEO_and_resignation.mw-headline, span#Brave_Software.mw-headline, span#References.mw-headline, span#External_links.mw-headline]
+myH2.forEach(function(li){
+    li.style.color = 'red'
+})
+undefined
+myH2.forEach(function(li){
+    li.style.color = 'black'
+})
+undefined
+myH2.forEach(function(li){
+    li.style.color = 'black';
+})
+undefined
+myH2.forEach(function(li){
+    li.style.color = 'black';
+    li.style.backgroundColor = 'green';
+    li.padding = "23px";
+})
+undefined
+myH2.forEach(function(li){
+    li.style.color = 'black';
+    li.style.backgroundColor = 'green';
+    li.padding = "23px";
+    li.innerText="AMAN';
+})
+VM647:5 Uncaught SyntaxError: Invalid or unexpected token
+myH2.forEach(function(li){
+    li.style.color = 'black';
+    li.style.backgroundColor = 'green';
+    li.padding = "23px";
+    li.innerText="AMAN";
+}) -->
